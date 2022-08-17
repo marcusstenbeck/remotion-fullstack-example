@@ -1,0 +1,21 @@
+{
+  "include": [
+    "./server/**/*"
+  ],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": [
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist/server",
+    "resolveJsonModule": true,
+    "strict": false,
+    "strictNullChecks": false,
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true
+  }
+}
